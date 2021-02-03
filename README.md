@@ -1,4 +1,1 @@
-# udacity_blog_project
-# udacity_blog_project
-# udacity_blog_project
-# udacity_blog_project
+My project for Personal Blog Page
