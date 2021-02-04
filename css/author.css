@@ -1,14 +1,15 @@
 
 #authorarea {
     display: grid;
-    grid-template-columns: 200px 1fr auto;
+    grid-template-columns: auto;
     grid-template-rows: 15px 150px 15px;
     grid-template-areas:
-        "about about about"
-        "image .  bio"  
-        "name name name";
-    width: 500px;
-    height: 200px;
+        "about"
+        "image"  
+        "name"
+        "bio";
+    width: auto;
+    height: auto;
 }
 
 #authorlabel {
@@ -34,4 +35,18 @@
     display: grid;
     grid-area: bio;
     font-size: 12px;
+}
+
+@media(min-width: 750px){
+    #authorarea {
+        display: grid;
+        grid-template-columns: 200px 1fr auto;
+        grid-template-rows: 15px 150px 15px;
+        grid-template-areas:
+            "about about about"
+            "image . bio"  
+            "name name name";
+        width: 500px;
+        height: 200px;
+    }
 }
