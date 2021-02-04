@@ -1,22 +1,3 @@
-
-#search{
-    grid-area: search;
-    display: flex;
-    flex-direction: row;    
-    justify-content: center;
-}
-
-#post-search-text{
-    /* nice small looking glass icon decoration. image was self created, no license required */ 
-    height: 20px;
-    width: 300px;
-    background-image: url(../images/lupe2.png); 
-    background-position: 1px 1px;
-    background-size: 20px;
-    background-repeat: no-repeat;
-    padding-left:30px;
-}
-
 #content{
     display: flex;
     flex-direction: row;
@@ -26,13 +7,9 @@
 
 /* one preview of a blog post */
 .articlepreview {
-    height: 250px;
-    width: 300px;
-    padding: 5px;
-    margin: 10px;
-    border: 1px dashed darkslategrey;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
-    /* half transparent for better blending with the background */
-    background-color: rgba(255,255,255,0.7);
+    height: 250px;
+    width: 300px;
+    margin: 10px;
 }
