@@ -11,8 +11,6 @@
     align-items: center;  
     width: 60%;
     height: 400px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #333030;
     /* add bitmoji into the box, add padding to make room for it */
     padding-left:260px;
     padding-top: 50px;

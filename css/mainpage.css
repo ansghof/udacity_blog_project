@@ -1,13 +1,5 @@
-#content{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 /* one preview of a blog post */
 .articlepreview {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
     height: 250px;
     width: 300px;

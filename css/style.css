@@ -1,56 +1,5 @@
-#page {
-    background-image: url(../images/plan.jpg);
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 2fr 1fr 1fr 80% 1fr;
-    grid-template-areas: "header" "navbar" "search" "content" "footer";
-}
-
-#navbar {
-    grid-area: navbar;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-evenly;
-    /* border-bottom: 1px dashed darkslategrey; */
-    margin-bottom: 10px;
-    align-content: flex-end;
-    text-decoration: none;
-}
-
-#title{
-    grid-area: header;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#search{
-    grid-area: search;
-    display: flex;
-    flex-direction: row;    
-    justify-content: center;
-}
-
-#post-search-text{
-    /* nice small looking glass icon decoration. image was self created, no license required */ 
-    height: 20px;
-    width: 300px;
-    background-image: url(../images/lupe2.png); 
-    background-position: 1px 1px;
-    background-size: 20px;
-    background-repeat: no-repeat;
-    padding-left:30px;
-}
-
-#footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-top: 3px dashed darkslategray
-}
+@import "page_setup.css";
+@import "magnifying-glass-decoration.css";
 
 /* half transparent box for better blending with the background */
 .alphabox {
@@ -59,7 +8,27 @@
     background-color: rgba(255,255,255,0.7);
 }
 
+#post-search-text {
+    height: 20px;
+    width: 300px;
+}
+
 h1, h2, h3{
     font-family: 'Courier New', Courier, monospace;
     color: #333030;
+}
+
+.monospacedgrey {
+    font-family: 'Courier New', Courier, monospace;
+    color: #333030;
+}
+
+.imagecaption {
+    font-size: 10px;
+}
+
+@media(min-width: 500px) {
+    .imagecaption {
+        font-size: 14px;
+    }
 }

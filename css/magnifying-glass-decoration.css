@@ -1,0 +1,8 @@
+.magnifying-glass{
+    /* nice small looking glass icon decoration. image was self created, no license required */ 
+    background-image: url(../images/lupe2.png); 
+    background-position: 1px 1px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left:30px;
+}
