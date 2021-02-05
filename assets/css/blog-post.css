@@ -48,6 +48,12 @@ img {
     background-repeat: no-repeat;
 }
 
+.expertquotation {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red; 
+}
+
 @media(min-width:500){
     #blogpost{
         grid-template-columns: 1fr 7fr 1fr;
