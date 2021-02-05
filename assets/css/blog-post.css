@@ -1,92 +1,92 @@
 @import "author.css";
 
 #blogentry {
-    grid-area: content;
-    display: flex;
+  grid-area: content;
+  display: flex;
 }
 
-#blogpost{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 4f auto;
-    grid-template-areas: 
-    "posttitle" 
-    "postimage" 
+#blogpost {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 4f auto;
+  grid-template-areas:
+    "posttitle"
+    "postimage"
     "postcontent";
 }
 
 #imagearea {
-    grid-area: postimage;
+  grid-area: postimage;
 }
 
 img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 #blogimage {
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 100%;
+}
+
+#blogposttitle {
+  grid-area: posttitle;
+}
+
+#blogposttext {
+  grid-area: postcontent;
+}
+
+.share-button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding-top: 50px;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+}
+
+.twitter {
+  background-image: url("../images/twitter.png");
+}
+
+.facebook {
+  background-image: url("../images/facebook.png");
+}
+
+.linkedin {
+  background-image: url("../images/linkedin.png");
+}
+
+.expertquotation {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.meaninglessbutton {
+  padding: 10px;
+  color: yellowgreen;
+  background-color: black;
+}
+
+@media (min-width: 500) {
+  #blogpost {
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows: 1fr 4fr auto;
+    grid-template-areas:
+      ". posttitle ."
+      ". postimage ."
+      ". postcontent .";
+  }
+
+  #blogimage {
     height: auto;
     max-height: 100%;
 
     width: auto;
     max-width: 100%;
-}
-
-#blogposttitle {
-    grid-area: posttitle;
-}
-
-#blogposttext{
-    grid-area: postcontent;
-}
-
-.share-button {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding-top: 50px;
-    background-size: 50px 50px;
-    background-repeat: no-repeat;
-}
-
-.twitter{
-    background-image: url("../images/twitter.png");
-}
-
-.facebook{
-    background-image: url("../images/facebook.png");
-}
-
-.linkedin{
-    background-image: url("../images/linkedin.png");
-}
-
-.expertquotation {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid red; 
-}
-
-.meaninglessbutton {
-    padding: 10px;
-    color: yellowgreen;
-    background-color: black;
-}
-
-@media(min-width:500){
-    #blogpost{
-        grid-template-columns: 1fr 7fr 1fr;
-        grid-template-rows: 1fr 4fr auto;
-        grid-template-areas: 
-        ". posttitle ." 
-        ". postimage ." 
-        ". postcontent .";
-    }
-
-    #blogimage {
-        height: auto;
-        max-height: 100%;
-    
-        width: auto;
-        max-width: 100%;
-    }
+  }
 }

@@ -1,23 +1,23 @@
 #aboutbox {
-    grid-area: content;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  grid-area: content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #abouttext {
-    display: flex;
-    flex-direction: row;
-    align-items: center;  
-    width: 60%;
-    height: 400px;
-    /* add bitmoji into the box, add padding to make room for it */
-    padding-left:260px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  height: 400px;
+  /* add bitmoji into the box, add padding to make room for it */
+  padding-left: 260px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
 
-    background-image: url('../images/bitmoji.png');
-    background-repeat: no-repeat;
-    background-position: -65px 40px;
+  background-image: url("../images/bitmoji.png");
+  background-repeat: no-repeat;
+  background-position: -65px 40px;
 }

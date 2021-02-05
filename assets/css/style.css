@@ -3,32 +3,34 @@
 
 /* half transparent box for better blending with the background */
 .alphabox {
-    border: 1px dashed darkslategrey;
-    padding: 5px;
-    background-color: rgba(255,255,255,0.7);
+  border: 1px dashed darkslategrey;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 #post-search-text {
-    height: 20px;
-    width: 300px;
+  height: 20px;
+  width: 300px;
 }
 
-h1, h2, h3{
-    font-family: 'Courier New', Courier, monospace;
-    color: #333030;
+h1,
+h2,
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  color: #333030;
 }
 
 .monospacedgrey {
-    font-family: 'Courier New', Courier, monospace;
-    color: #333030;
+  font-family: "Courier New", Courier, monospace;
+  color: #333030;
 }
 
 .imagecaption {
-    font-size: 10px;
+  font-size: 10px;
 }
 
-@media(min-width: 500px) {
-    .imagecaption {
-        font-size: 14px;
-    }
+@media (min-width: 500px) {
+  .imagecaption {
+    font-size: 14px;
+  }
 }
