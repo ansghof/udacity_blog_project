@@ -61,7 +61,7 @@
   border-top: 3px dashed darkslategray;
 }
 
-@media (min-width: 9  00px) {
+@media (min-width: 900px) {
   #navbar {
     justify-content: space-between;
     padding-left: 100px;
