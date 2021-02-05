@@ -1,7 +1,8 @@
 /* one preview of a blog post */
 .articlepreview {
     font-size: 12px;
-    height: 250px;
+    /* box was too small on mobile devices and text went over the border. set to auto */
+    height: auto;
     width: 300px;
     margin: 10px;
 }

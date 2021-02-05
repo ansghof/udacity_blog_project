@@ -1,6 +1,5 @@
 @import "page_setup.css";
 @import "magnifying-glass-decoration.css";
-@import "navbar.css";
 
 /* half transparent box for better blending with the background */
 .alphabox {
@@ -32,4 +31,6 @@ h1, h2, h3{
     .imagecaption {
         font-size: 14px;
     }
+
+    
 }
